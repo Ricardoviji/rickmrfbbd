@@ -8,6 +8,6 @@ document.head.innerHTML += /* html */
 customElements.define("mi-footer", class extends HTMLElement {
   /** Se invoca al agregar este element a la página. */
   connectedCallback() {
-    this.textContent = "Copyright © 2020 Ricardo Armando Machorro Reyes.";
+    this.textContent = "Copyright © 2021 Ricardo Armando Machorro Reyes.";
   }
 });
